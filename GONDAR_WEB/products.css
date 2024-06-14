@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Birthstone", sans-serif;
+}
+
+:root{
+    --color_text-primary:#020202;
+    --color_text-secundary:#e0ab23;
+    --color_text-tertiary:#e2e2e2;
+    --color_text-quaternary:#fc1818;
+    --text_title-size:70px;
+    --text_paragraph:40px;
+    --main_color:#f0eded;
+    --background_products:#323232;
+}
+
+html, body{
+    position: relative;
+    height: 100%;
+}
+
+body{
+    background-color: var(--background_products);
+    font-size: 14px;
+    color: var(--color_text-primary);
+}
+
+.swiper{
+    width: 100%;
+    padding: 80px 0 50px 0;
+
+}
+
+.swiper-wrapper{
+    display: flex;
+}
+
+.swiper-slide{
+    width: 450px;
+    height: 500px;
+    background-color: var(--background_products);
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-txt{
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.product-txt h2{
+    font-size: 30px;
+    color: var(--main_color);
+    text-transform: uppercase;
+    text-shadow: 1px 1px var(--color_text-quaternary);
+}
+
+.product-txt p{
+    font-size: 25px;
+    color: var(--color_text-tertiary);
+}
+
+.product-img{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.product-img img{
+    width: 170px;
+    height: 200px;
+    box-shadow: 5px 5px 5px var(--color_text-primary);
+    border-radius: 5px;
+}

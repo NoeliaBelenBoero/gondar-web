@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gondar Web</title>
+    <script src="https://kit.fontawesome.com/b408879b64.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header - Menú-->
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="btn__log-icon">
+                <button class="btn__login">LOGIN</button>
+                <button class="btn__icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Quienes somos?</a></li>
+                        <li><a href="#">Ubicación</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--INICIO-->
+        <!--Portada de inicio-->
+        <div class="banner">
+            <video muted autoplay loop>
+                <source src="https://v7.cdnpk.net/videvo_files/video/partners1386/large_preview/h33bb913e_A003_C037_012420_V2-0006.mp4"
+                type="video/mp4">
+            </video>
+            <div class="banner__text">
+                <h2>Fábrica de chacinados Gondar</h2>
+                <p>Elaboramos productos de máxima calidad, 100% puro cerdo.<br>
+                    Venta en fábrica por mayor y menor.<br>
+                    Producto Marplatense.
+                </p>
+                <button class="btn__videos">PRODUCTOS</button>
+            </div>
+        </div>
+
+        <!--QUIENES SOMOS?-->
+        <div class="container__we">
+            <h1>Quienes somos?</h1>
+            <div class="cover__we">
+                <section class="text__cover-we">
+                    <p><b>PROYECTO GONDAR S.A.</b> es una fábrica de chacinados radicada en la ciudad de Mar del Plata
+                        (pcia. de Bs. As., Rep. Argentina).Comienza su actividad comercial a mediados de 2020,
+                        siendo un emprendimiento comercial dedicado a la elaboración y venta al por mayor y menor
+                        de nuestros productos.  
+                    </p>
+                </section>
+                <section class="slider__cover">
+                    <ul>
+                        <li>
+                            <img src="assets/b_1.jpg" alt="">
+                            <img src="assets/b_2.jpg" alt="">
+                            <img src="assets/b_3.jpg" alt="">
+                            <img src="assets/b_5.jpg" alt="">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="cover__we">
+                <section class="slider__cover">
+                    
+                        <ul>
+                            <li>
+                                <img src="assets/b_4.jpg" alt="">
+                                <img src="assets/b_5.jpg" alt="">
+                                <img src="assets/b_6.jpg" alt="">
+                                <img src="assets/b_2.jpg" alt="">
+                            </li>
+                        </ul>
+                    
+                </section>
+                <section class="text__cover-we">
+                    <p>Contamos con productos de excelente calidad elaborados con materias primas de primera.
+                        Nuestros productos se encuentran en diversos puntos de la ciudad.<br>
+                        La atención al público se realiza en nuestra fábrica ubicada en la calle Matheu 6199.<br>
+                        Contáctese con nosotros telefónicamente al 0223-351-9467 o personalmente en nuestro local.
+                    </p>
+                </section>
+            </div>
+            <section class="more__info">
+                <a class="btn__more-info" href="more_info.html">SABER MAS<i class="fas fa-arrow-right"></i></a>
+            </section>
+        </div>
+
+        <!--UBICACION-->
+        <div class="container__location">
+            <div class="map">
+                <h1>Ubicación</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12576.438446289478!2d-57.5963275!3d-37.9979037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9d077781f9f%3A0xb9615cd2aec47828!2sChacinados%20Gondar!5e0!3m2!1ses-419!2sar!4v1717990230485!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!--VIDEOS-->
+        <div class="container__videos">
+            <h1>Videos</h1>
+            <div class="videos">
+                <video controls muted>
+                    <source src="assets/v_1.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="assets/v_2.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="assets/v_3.mp4" type="video/mp4">
+                </video>
+                <video controls muted>
+                    <source src="assets/v_4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!--CONTACTO-->
+        <div class="container__contact">
+            <h1 class="title_contact">Contacto</h1>
+            <div class="contact_wrapper">
+                <div class="contact_form">
+                    <h2>Contáctese</h2>
+                    <form>
+                        <p>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name">
+                        </p>
+                        <p>
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" name="email" id="email" >
+                        </p>
+                        <p>
+                            <label for="phone">Telefono</label>
+                            <input type="tel" name="phone" id="phone" >
+                        </p>
+                        <p>
+                            <label for="message">Mensaje</label>
+                            <textarea type="text" name="message" id="message" ></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">ENVIAR</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact_info">
+                    <h3>Más información</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"><h4>Matheu 6199</h4></i></li>
+                        <li><i class="fas fa-phone"><h4>0223 351 9467</h4></i></li>
+                        <li><i class="fas fa-envelope-open-text"><h4>0223 351 9467</h4></i></li>
+                        <li><i class="fa fa-whatsapp" aria-hidden="true"><h4>0223 351 9467</h4></i></li>
+                        <li><i class="far fa-clock"><h4>14:00-22:00</h4></i></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer class="container__footer">
+            <div class="container_1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="assets/logo.jpg" alt="Logo de Gondar">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>DIRECCION:</h2>
+                    <p>Matheu 6199</p>
+                </div>
+                <div class="box">
+                    <h2>HORARIO DE ATENCION:</h2>
+                    <P>14:00 a 22:00</P>
+                </div>
+                <div class="box">
+                    <h2>SEGUINOS EN:</h2>
+                    <div class="social_networks">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container_2">
+                <small>&copy; 2024 <b> - Todos los Derechos Reservados.</b></small>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
